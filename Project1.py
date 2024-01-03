@@ -57,15 +57,15 @@ if (selected == 'HOME'):
     image = Image.open('HOME.jpg')
     new_image = image.resize((800, 500))
     st.image(new_image)
-    st.title("**Welcome to our Disease Prediction Web App**")
-    st.write("Harnessing the power of machine learning and advanced algorithms, our web application allows you to predict and assess various diseases with ease. Input your information and receive accurate predictions for conditions such as heart disease, hepatitis, Parkinson's disease, diabetes, pneumonia, and liver disease.")
-    st.write("Our cutting-edge models, trained on extensive datasets, provide reliable insights into your health. Whether you're concerned about your cardiovascular health, liver function, or risk factors for diabetes, our app has you covered. Simply enter your details, and our intelligent algorithms will analyze the data to generate personalized predictions.")
-    st.write("In addition to disease predictions, our app features an AI-powered chatbot equipped with state-of-the-art language models. Chat with our virtual doctor and get expert advice on various health-related queries.")
-    st.write("With our web application, you can take charge of your well-being, make informed decisions, and seek timely medical intervention when necessary. Experience the future of healthcare with our comprehensive disease prediction app and embark on a journey towards a healthier life.")
-    st.write("Connect Me at:")
-    st.write("Github Link : https://github.com/Phantom-Harsh/Multiple-disease-Predictor")
-    st.write("LinkedIn Link : https://www.linkedin.com/in/harsh-tirhekar")
-    st.write("Email : iib2021016@iiita.ac.in")    
+   st.title("**Welcome to Our Advanced Disease Prediction Web App**")
+st.write("Embark on a transformative journey to proactive health management with our cutting-edge Disease Prediction Web App. Utilizing the prowess of machine learning and sophisticated algorithms, our platform empowers you to predict and assess a spectrum of diseases effortlessly.")
+st.write("Immerse yourself in a realm where data meets intelligence. Input your information, and witness the precision of our models in delivering accurate predictions for conditions such as heart disease, hepatitis, Parkinson's disease, diabetes, pneumonia, and liver disease.")
+st.write("Our state-of-the-art models, meticulously trained on expansive datasets, offer unparalleled insights into your health. Whether you're prioritizing cardiovascular health, monitoring liver function, or evaluating diabetes risk factors, our app stands as your reliable ally.")
+st.write("Step into the future of healthcare where personalized predictions are just a click away. Enter your details, and let our intelligent algorithms analyze the data, providing you with tailor-made insights to guide your wellness journey.")
+st.write("But that's not all; our app goes beyond predictions. Immerse yourself in the world of conversational AI with our virtual doctor – an AI-powered chatbot armed with state-of-the-art language models. Engage in insightful conversations and receive expert advice on various health-related queries.")
+st.write("Empower yourself to make informed decisions, take control of your well-being, and seek timely medical intervention when needed. The future of healthcare is here, and it starts with our comprehensive Disease Prediction Web App. Embark on a journey towards a healthier, more informed life.")
+
+  
 
 # Liver Disease Prediction Page used # https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset
 if (selected == 'Liver Disease Prediction'):
