@@ -57,13 +57,13 @@ if (selected == 'HOME'):
     image = Image.open('HOME.jpg')
     new_image = image.resize((800, 500))
     st.image(new_image)
-   st.title("**Welcome to Our Advanced Disease Prediction Web App**")
-st.write("Embark on a transformative journey to proactive health management with our cutting-edge Disease Prediction Web App. Utilizing the prowess of machine learning and sophisticated algorithms, our platform empowers you to predict and assess a spectrum of diseases effortlessly.")
-st.write("Immerse yourself in a realm where data meets intelligence. Input your information, and witness the precision of our models in delivering accurate predictions for conditions such as heart disease, hepatitis, Parkinson's disease, diabetes, pneumonia, and liver disease.")
-st.write("Our state-of-the-art models, meticulously trained on expansive datasets, offer unparalleled insights into your health. Whether you're prioritizing cardiovascular health, monitoring liver function, or evaluating diabetes risk factors, our app stands as your reliable ally.")
-st.write("Step into the future of healthcare where personalized predictions are just a click away. Enter your details, and let our intelligent algorithms analyze the data, providing you with tailor-made insights to guide your wellness journey.")
-st.write("But that's not all; our app goes beyond predictions. Immerse yourself in the world of conversational AI with our virtual doctor – an AI-powered chatbot armed with state-of-the-art language models. Engage in insightful conversations and receive expert advice on various health-related queries.")
-st.write("Empower yourself to make informed decisions, take control of your well-being, and seek timely medical intervention when needed. The future of healthcare is here, and it starts with our comprehensive Disease Prediction Web App. Embark on a journey towards a healthier, more informed life.")
+    st.title("**Welcome to Our Advanced Disease Prediction Web App**")
+    st.write("Embark on a transformative journey to proactive health management with our cutting-edge Disease Prediction Web App. Utilizing the prowess of machine learning and sophisticated algorithms, our platform empowers you to predict and assess a spectrum of diseases effortlessly.")
+    st.write("Immerse yourself in a realm where data meets intelligence. Input your information, and witness the precision of our models in delivering accurate predictions for conditions such as heart disease, hepatitis, Parkinson's disease, diabetes, pneumonia, and liver disease.")
+    st.write("Our state-of-the-art models, meticulously trained on expansive datasets, offer unparalleled insights into your health. Whether you're prioritizing cardiovascular health, monitoring liver function, or evaluating diabetes risk factors, our app stands as your reliable ally.")
+    st.write("Step into the future of healthcare where personalized predictions are just a click away. Enter your details, and let our intelligent algorithms analyze the data, providing you with tailor-made insights to guide your wellness journey.")
+    st.write("But that's not all; our app goes beyond predictions. Immerse yourself in the world of conversational AI with our virtual doctor – an AI-powered chatbot armed with state-of-the-art language models. Engage in insightful conversations and receive expert advice on various health-related queries.")
+    st.write("Empower yourself to make informed decisions, take control of your well-being, and seek timely medical intervention when needed. The future of healthcare is here, and it starts with our comprehensive Disease Prediction Web App. Embark on a journey towards a healthier, more informed life.")
 
   
 
